@@ -30,7 +30,7 @@ const HeroSection = () => {
             as="a"
             href="#shelters"
           >
-            {t('hero.findPet')}
+            {t('hero.forShelters')}
           </Button>
           <Button
             variant="secondary"
@@ -42,7 +42,7 @@ const HeroSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {t('hero.donate')}
+            {t('hero.becomePartner')}
           </Button>
         </div>
       </div>

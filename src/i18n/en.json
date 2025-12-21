@@ -2,7 +2,7 @@
   "hero": {
     "title": "Find a Friend<br/>Save a Life",
     "subtitle": "A modern digital platform transforming the pet adoption experience",
-    "findPet": "For Shelters",
-    "donate": "Become a partner"
+    "forShelters": "For Shelters",
+    "becomePartner": "Become a partner"
   }
 }
