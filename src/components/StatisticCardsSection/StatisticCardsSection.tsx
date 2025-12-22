@@ -19,7 +19,8 @@ const StatisticCardsSection: React.FC<StatisticCardsSectionProps> = ({
         <NumberCard
           key={card.id}
           cardNumber={card.cardNumber}
-          cardText={t(card.cardText)}
+          cardTitle={t(card.cardTitle)}
+          cardDescription={t(card.cardDescription)}
         />
       ))}
     </div>

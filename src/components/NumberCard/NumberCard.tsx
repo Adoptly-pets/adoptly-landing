@@ -3,14 +3,15 @@ import './NumberCard.css';
 
 interface NumberCardProps {
   cardNumber: string;
-  cardText: string;
+  cardTitle: string;
+  cardDescription: string;
 }
 
-const NumberCard: React.FC<NumberCardProps> = ({ cardNumber, cardText }) => {
-  const words = cardText.split(' ');
-  const firstWord = words[0] || ''; // Handle empty string
-  const textRest = words.slice(1).join(' ');
-
+const NumberCard: React.FC<NumberCardProps> = ({
+  cardNumber,
+  cardTitle,
+  cardDescription,
+}) => {
   return (
     <div className="number-card">
       {cardNumber ? (
@@ -19,8 +20,8 @@ const NumberCard: React.FC<NumberCardProps> = ({ cardNumber, cardText }) => {
         <h3 className="number-card__number">—</h3>
       )}
       <div className="number-card__text">
-        {firstWord && <span>{firstWord}</span>}
-        {textRest && <span>{textRest}</span>}
+        {<span className="number-card__title">{cardTitle}</span>}
+        {cardDescription}
       </div>
     </div>
   );
