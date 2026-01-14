@@ -1,16 +1,14 @@
 import handshaking from '../../assets/images//HowItAllBegan/handshaking.webp';
 import './HowItAllBeganSection.css';
+import { useTranslation } from 'react-i18next';
 
 const HowItAllBeganSection = () => {
+  const { t } = useTranslation();
   return (
     <section className="how-it-all-began-section container">
       <div className="first-block">
-        <h3>Як все почалося?</h3>
-        <p>
-          У липні 2025 року ми об‘єдналися, щоб використати професійні навички
-          для соціального проєкту. Віримо, що платформа Adoptly зробить
-          прилаштування тварин простим, прозорим та доступним.
-        </p>
+        <h3>{t('HowItAllBegan.title')}</h3>
+        <p>{t('HowItAllBegan.paragraphs.1')}</p>
       </div>
       <div className="second-block">
         <img
@@ -20,12 +18,8 @@ const HowItAllBeganSection = () => {
           decoding="async"
         />
         <div>
-          <h4>Народжені на Team Challenge </h4>
-          <p>
-            Основна команда сформувалася на платформі Team Challenge – де
-            інженери, дизайнери, QA та менеджери знаходять партнерів для перших
-            значущих проєктів.
-          </p>
+          <h4>{t('HowItAllBegan.subtitle')}</h4>
+          <p>{t('HowItAllBegan.paragraphs.2')}</p>
         </div>
       </div>
     </section>
