@@ -1,0 +1,16 @@
+.our-way-section {
+  margin: 48px 0;
+}
+
+.timeline {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  padding-top: 64px;
+}
+
+.our-way-section h4 {
+  font-weight: 600;
+  text-align: center;
+  padding-top: 14px;
+}

@@ -1,15 +1,18 @@
-import { MILESTONES_DATA } from '../../constants/MILESTOUNS_DATE';
+import { MILESTONES_DATA } from '../../constants/MILESTONES_DATE';
 import WayCard from '../WayCard/WayCard';
+import './OurWaySection.css';
 
 const OurWaySection = () => {
   return (
     <section className="our-way-section">
-      <div className="container">
-        <h2 className="section-title">Наш шлях</h2>
+      <div>
+        <h3>Наш шлях</h3>
+        <h4 className="section-subtitle">Етапи розвитку проєкту</h4>
       </div>
       <div className="timeline">
         {MILESTONES_DATA.map(milestone => (
           <WayCard
+            key={milestone.cardNumber}
             cardImageSrc={milestone.cardImageSrc}
             cardImgAlt={milestone.cardImgAlt}
             cardNumber={milestone.cardNumber}
