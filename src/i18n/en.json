@@ -37,5 +37,10 @@
       "1": "In July 2025, we came together to use our professional skills for a social project. We believe that the Adoptly platform will make pet adoption simple, transparent, and accessible.",
       "2": " The core team was formed on the Team Challenge platform – where engineers, designers, QA, and managers find partners for their first meaningful projects."
     }
+  },
+  "WhoCreatesAdoptly": {
+    "title": "Who creates Adoptly?",
+    "description": "A team of volunteers united by a shared mission.",
+    "button": "Join the team"
   }
 }

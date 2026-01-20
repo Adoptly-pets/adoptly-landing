@@ -2,10 +2,12 @@ import Roles from '../Roles/Roles';
 import './WhoCreatesAdoptly.css';
 import Button from '../Button/Button';
 import footprints from '../../assets/images/WhoCreatesAdoptly/footprints.webp';
+import { useTranslation } from 'react-i18next';
 
 const WhoCreatesAdoptly = () => {
+  const { t } = useTranslation();
   return (
-    <section className="who-creates-adoptly">
+    <section className="who-creates-adoptly" id="team">
       <img
         className="footprints paws-1"
         src={footprints}
@@ -14,8 +16,8 @@ const WhoCreatesAdoptly = () => {
         loading="lazy"
         decoding="async"
       />
-      <h2>Хто створює Adoptly?</h2>
-      <p className="subtitle">Команда волонтерів, обʼєднаних спільною метою.</p>
+      <h2>{t('WhoCreatesAdoptly.title')}</h2>
+      <p className="description">{t('WhoCreatesAdoptly.description')}</p>
       <Roles />
       <Button
         variant="primary"
@@ -26,7 +28,7 @@ const WhoCreatesAdoptly = () => {
         rel="noopener noreferrer"
         style={{ margin: '0 auto' }}
       >
-        Долучитися до команди
+        {t('WhoCreatesAdoptly.button')}
       </Button>
       <img
         className="footprints paws-2"
