@@ -1,15 +1,31 @@
-.who-creates-Adoptly {
+.who-creates-adoptly {
   background-color: #9fb9ff;
   border-radius: 48px;
   padding: 72px 76px;
-  margin: 48px 146.5px;
+  margin: 48px auto;
+  max-width: 1145px;
+  position: relative;
 }
 
-.who-creates-Adoptly .subtitle {
+.who-creates-adoptly .subtitle {
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 700;
   text-align: center;
   color: var(--text-color);
   margin-top: 1rem;
+}
+
+.footprints {
+  position: absolute;
+}
+
+.paws-1 {
+  top: 20px;
+  left: 20px;
+}
+
+.paws-2 {
+  bottom: 20px;
+  right: 20px;
 }
