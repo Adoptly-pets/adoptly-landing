@@ -7,7 +7,10 @@ const Roles = () => {
       {ROLES_DATA.map(role => (
         <div key={role.name} className="role-card">
           <img src={role.icon} alt={role.name} />
-          <p>{role.name}</p>
+          <div className="role-info">
+            <p>{role.name}</p>
+            <p className="role-description">{role.description}</p>
+          </div>
         </div>
       ))}
     </div>

@@ -12,11 +12,11 @@ export interface Role {
 }
 
 export const ROLES_DATA = [
-  { name: 'Product Manager', icon: ProductManager },
-  { name: 'Project Managers', icon: ProjectManager },
-  { name: 'Business Analysts', icon: BA },
-  { name: 'Frontend Developers', icon: Frontend },
-  { name: 'Backend Developers', icon: Backend },
-  { name: 'QA Engineers', icon: QA },
-  { name: 'UI/UX Designer', icon: Designer },
+  { name: 'Product Manager', icon: ProductManager, description: 'Strategy' },
+  { name: 'Project Managers', icon: ProjectManager, description: 'Management' },
+  { name: 'Business Analysts', icon: BA, description: 'Requirements' },
+  { name: 'Frontend Developers', icon: Frontend, description: 'Code' },
+  { name: 'Backend Developers', icon: Backend, description: 'API & Logic' },
+  { name: 'QA Engineers', icon: QA, description: 'Quality Control' },
+  { name: 'UI/UX Designer', icon: Designer, description: 'Experience' },
 ];
