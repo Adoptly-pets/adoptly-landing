@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection/HeroSection';
 import AboutUsSection from './components/AboutUsSection/AboutUsSection';
 import HowItAllBeganSection from './components/HowItAllBeganSection/HowItAllBeganSection';
 import WhoCreatesAdoptly from './components/WhoCreatesAdoptly/WhoCreatesAdoptly';
+import OurWaySection from './components/OurWaySection/OurWaySection';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <AboutUsSection />
         <HowItAllBeganSection />
         <WhoCreatesAdoptly />
+        <OurWaySection />
       </main>
     </>
   );
