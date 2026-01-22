@@ -1,0 +1,31 @@
+.who-creates-adoptly {
+  background-color: #9fb9ff;
+  border-radius: 48px;
+  padding: 72px 76px;
+  margin: 48px auto;
+  max-width: 1145px;
+  position: relative;
+}
+
+.who-creates-adoptly .description {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: center;
+  color: var(--text-color);
+  margin-top: 1rem;
+}
+
+.footprints {
+  position: absolute;
+}
+
+.paws-1 {
+  top: 20px;
+  left: 36px;
+}
+
+.paws-2 {
+  bottom: 8px;
+  right: 37px;
+}

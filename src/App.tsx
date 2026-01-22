@@ -2,6 +2,7 @@ import Header from './components/Header/Header';
 import HeroSection from './components/HeroSection/HeroSection';
 import AboutUsSection from './components/AboutUsSection/AboutUsSection';
 import HowItAllBeganSection from './components/HowItAllBeganSection/HowItAllBeganSection';
+import WhoCreatesAdoptly from './components/WhoCreatesAdoptly/WhoCreatesAdoptly';
 import OurWaySection from './components/OurWaySection/OurWaySection';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <HeroSection />
         <AboutUsSection />
         <HowItAllBeganSection />
+        <WhoCreatesAdoptly />
         <OurWaySection />
       </main>
     </>
