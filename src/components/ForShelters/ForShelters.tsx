@@ -10,7 +10,7 @@ const ForShelters = () => {
       <div className="left">
         <span>Притулкам</span>
         <h2> Взяти участь у розвитку платформи</h2>
-        <p>
+        <p className="description">
           Якщо ви хочете взяти участь в розвитку платформи та отримати зручний
           інструмент – приходьте на тестування. Ваша думка формує продукт.
         </p>
@@ -39,10 +39,15 @@ const ForShelters = () => {
         <Button
           maxWidth={333}
           height={66}
+          as="a"
+          href="https://forms.gle/QCN2T57Zo8vmYEWe6"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{
             fontSize: '20px',
             fontWeight: 700,
             backgroundColor: '#1E293B',
+            gap: '8px',
           }}
         >
           Пройти опитування (3 хв){' '}
