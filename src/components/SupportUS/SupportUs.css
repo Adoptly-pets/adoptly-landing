@@ -21,10 +21,6 @@
   align-items: start;
   padding: 127px 0 0 87px;
   max-width: 770px;
-  width: 100%;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  box-sizing: border-box;
 }
 .description {
   font-family: var(--third-family);
