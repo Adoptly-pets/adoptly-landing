@@ -16,7 +16,8 @@ const HeroSection = () => {
     >
       <div className="text-and-buttons">
         <span className="label">
-          <div className="circle"></div>IT-ВОЛОНТЕРСЬКА ІНІЦІАТИВА
+          <div className="circle"></div>
+          {t('hero.label')}
         </span>
         <h1 role="heading" aria-level={1}>
           <Trans i18nKey="hero.title" />
