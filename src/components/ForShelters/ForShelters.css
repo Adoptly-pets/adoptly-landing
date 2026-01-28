@@ -65,3 +65,9 @@
 .for-shelters .right {
   max-width: 460px;
 }
+
+@media (max-width: 768px) {
+  .for-shelters {
+    flex-direction: column;
+  }
+}
