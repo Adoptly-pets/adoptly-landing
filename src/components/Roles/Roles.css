@@ -40,3 +40,9 @@
   font-weight: 500;
   color: #091a4999;
 }
+
+@media (max-width: 768px) {
+  .roles {
+    grid-template-columns: 1fr;
+  }
+}
