@@ -16,14 +16,29 @@ const SupportUs = () => {
         <h3 className="title">{t('supportUs.title')}</h3>
         <p className="description">{t('supportUs.description')}</p>
         <div className="support-buttons">
-          <a href="#email" className="email-btn">
-            <Icon id="icon-email" size={28} height={28} />
+          <a href="mailto:info@adoptly.app " className="email-btn">
+            <Icon
+              id="icon-email"
+              size={28}
+              height={28}
+              className="icon-email"
+            />
             <span>{t('supportUs.email')}</span>
           </a>
 
-          <a href="#linkedin" className="linkedin-btn">
+          <a
+            href="https://www.linkedin.com/company/adoptly-app/posts/?feedView=all"
+            className="linkedin-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {' '}
-            <Icon id="icon-linkedin" size={29} height={28} />
+            <Icon
+              id="icon-linkedin"
+              size={29}
+              height={28}
+              className="icon-linkedin"
+            />
             <span>Linkedln</span>
           </a>
         </div>

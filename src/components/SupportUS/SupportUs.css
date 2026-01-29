@@ -32,6 +32,7 @@
 }
 .support-buttons {
   display: flex;
+
   gap: 18px;
 }
 .email-btn {
@@ -77,7 +78,14 @@
 .email-btn:active {
   transform: translateY(0);
 }
-
+.icon-email {
+  width: 28px;
+  height: 28px;
+}
+.icon-linkedin {
+  width: 28px;
+  height: 29px;
+}
 .img-cat {
   width: 416px;
   height: 318px;
