@@ -96,13 +96,6 @@ img {
   }
 }
 /* --- Reset --- */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 ul,
 ol {
@@ -114,11 +107,6 @@ a {
   color: inherit;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 svg {
   all: unset;
   display: inline-block;
