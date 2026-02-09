@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import './WayCard.css';
 import React from 'react';
 
@@ -20,9 +21,12 @@ const WayCard: React.FC<WayCardProps> = ({
   cardDescription,
   isActive,
 }) => {
+  const { t } = useTranslation();
   return (
     <div className={`timeline-item ${isActive ? 'active-card' : ''}`}>
-      {isActive && <div className="active-badge">Зараз</div>}
+      {isActive && (
+        <div className="active-badge">{t('OurWay.badge.active')}</div>
+      )}
       <div className="timeline-number">
         <img
           src={cardImageSrc}

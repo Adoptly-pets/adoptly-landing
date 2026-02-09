@@ -15,32 +15,29 @@ export interface MilestonesData {
 export const MILESTONES_DATA: MilestonesData[] = [
   {
     cardImageSrc: startImg,
-    cardImgAlt: 'старт  ',
+    cardImgAlt: 'OurWay.milestones.start.cardImgAlt',
     cardNumber: '01',
-    cardDate: 'липень 2025',
-    cardTitle: 'Старт ініціативи',
-    cardDescription:
-      'Збір команди на Team Challenge та визначення місії проєкту.',
+    cardDate: 'OurWay.milestones.start.date',
+    cardTitle: 'OurWay.milestones.start.title',
+    cardDescription: 'OurWay.milestones.start.description',
     isActive: false,
   },
   {
     cardImageSrc: developImg,
-    cardImgAlt: 'розробка ',
+    cardImgAlt: 'OurWay.milestones.development.cardImgAlt',
     cardNumber: '02',
-    cardDate: 'активна фаза',
-    cardTitle: 'Розробка MVP',
-    cardDescription:
-      'Архітектура, дизайн, написання коду та тестування функціоналу.',
+    cardDate: 'OurWay.milestones.development.date',
+    cardTitle: 'OurWay.milestones.development.title',
+    cardDescription: 'OurWay.milestones.development.description',
     isActive: true,
   },
   {
     cardImageSrc: releaseImg,
-    cardImgAlt: 'реліз ',
+    cardImgAlt: 'OurWay.milestones.release.cardImgAlt',
     cardNumber: '03',
-    cardDate: 'лютий 2026',
-    cardTitle: 'Реліз платформи',
-    cardDescription:
-      'Запуск першої версії сайту для перших притулків-партнерів.',
+    cardDate: 'OurWay.milestones.release.date',
+    cardTitle: 'OurWay.milestones.release.title',
+    cardDescription: 'OurWay.milestones.release.description',
     isActive: false,
   },
 ];
