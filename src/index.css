@@ -89,6 +89,10 @@ img {
   :root {
     --container-padding: 20px;
   }
+  .container {
+    margin: 0 20px;
+    padding: 40px 0 48px;
+  }
 }
 /* --- Reset --- */
 *,
