@@ -44,7 +44,6 @@ const ForShelters = () => {
           target="_blank"
           rel="noopener noreferrer"
           style={{
-            fontSize: '20px',
             fontWeight: 700,
             backgroundColor: '#1E293B',
             gap: '8px',
