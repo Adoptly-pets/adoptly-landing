@@ -76,5 +76,13 @@
         "description": "Launching the first version of the website for initial partner shelters."
       }
     }
+  },
+  "forShelters": {
+    "badge": "For Shelters",
+    "title": "Take part in shaping the platform",
+    "description": "If you want to contribute to the platform’s development and get a convenient tool, join our testing. Your feedback helps shape the product.",
+    "question1": "How much time do you spend creating a listing?",
+    "question2": "Would you be willing to collaborate with us?",
+    "button": "Take the survey (3 min)"
   }
 }
