@@ -10,6 +10,7 @@ export interface MilestonesData {
   cardTitle: string;
   cardDescription: string;
   isActive: boolean;
+  isFuture?: boolean;
 }
 
 export const MILESTONES_DATA: MilestonesData[] = [
@@ -42,5 +43,6 @@ export const MILESTONES_DATA: MilestonesData[] = [
     cardDescription:
       'Запуск першої версії сайту для перших притулків-партнерів.',
     isActive: false,
+    isFuture: true,
   },
 ];

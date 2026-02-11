@@ -9,6 +9,7 @@ interface WayCardProps {
   cardTitle: string;
   cardDescription: string;
   isActive: boolean;
+  isFuture?: boolean;
 }
 
 const WayCard: React.FC<WayCardProps> = ({
@@ -19,6 +20,7 @@ const WayCard: React.FC<WayCardProps> = ({
   cardTitle,
   cardDescription,
   isActive,
+  isFuture,
 }) => {
   return (
     <div className={`timeline-item ${isActive ? 'active-card' : ''}`}>
@@ -33,7 +35,7 @@ const WayCard: React.FC<WayCardProps> = ({
         <span>{cardNumber}</span>
       </div>
       <div className="timeline-info">
-        <span>{cardDate}</span>
+        <span className={isFuture ? 'future-date' : 'test'}>{cardDate}</span>
         <h4>{cardTitle}</h4>
         <p>{cardDescription}</p>
       </div>

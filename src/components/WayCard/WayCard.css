@@ -67,3 +67,7 @@
   text-transform: uppercase;
   box-shadow: 0px 4px 8px 0px #ff8c0052;
 }
+
+.timeline-info .future-date {
+  color: #6466f1;
+}
