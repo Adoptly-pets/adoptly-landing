@@ -8,7 +8,7 @@
   gap: 119px;
 }
 
-.for-shelters span {
+.for-shelters .badge {
   color: #ff7300;
   text-transform: uppercase;
   font-weight: 700;
@@ -64,4 +64,69 @@
 
 .for-shelters .right {
   max-width: 460px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 20px 0px #091a491f;
+  border-radius: 32px;
+  rotate: 2deg;
+}
+
+.for-shelters .right img {
+  max-width: 130px;
+  max-height: 130px;
+}
+.for-shelters .right .accout-icon {
+  padding: 50px 145px 29px;
+}
+
+.for-shelters .right p {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.for-shelters .right .dots {
+  display: flex;
+  padding: 35px 0 0 25px;
+  gap: 6px;
+}
+
+.for-shelters .right .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #f97171;
+  display: inline-block;
+}
+
+.for-shelters .right .dot:nth-child(2) {
+  background-color: #facc14;
+}
+.for-shelters .right .dot:nth-child(3) {
+  background-color: #79d792;
+}
+
+.for-shelters .right .content {
+  background: #f9fafc;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 32px 32px;
+}
+
+.for-shelters .right .content .free-button {
+  margin: 12px 39px 40px 305px;
+  background-color: #ffffff;
+  border-radius: 214px;
+  padding: 6px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.for-shelters .right .content .button-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #79d792;
+  border-radius: 50%;
 }

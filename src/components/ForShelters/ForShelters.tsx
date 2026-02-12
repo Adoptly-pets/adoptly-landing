@@ -1,5 +1,5 @@
 import Button from '../Button/Button';
-import sheltersAccountImg from '../../assets/images/ForShelters/shelters-account.webp';
+import sheltersAccountImg from '../../assets/images/JoinUs/home.webp';
 import iconCheck from '../../assets/images/ForShelters/icon-check.webp';
 import iconShare from '../../assets/images/ForShelters/icon-share.webp';
 import './ForShelters.css';
@@ -8,7 +8,7 @@ const ForShelters = () => {
   return (
     <section id="shelters" className="for-shelters">
       <div className="left">
-        <span>Притулкам</span>
+        <span className="badge">Притулкам</span>
         <h2> Взяти участь у розвитку платформи</h2>
         <p className="description">
           Якщо ви хочете взяти участь в розвитку платформи та отримати зручний
@@ -61,13 +61,28 @@ const ForShelters = () => {
         </Button>
       </div>
       <div className="right">
-        <img
-          src={sheltersAccountImg}
-          alt="shelters account illustration"
-          aria-hidden="true"
-          loading="lazy"
-          decoding="async"
-        />
+        <div className="dots">
+          <span className="dot"></span>
+          <span className="dot"></span>
+          <span className="dot"></span>
+        </div>
+        <div className="content">
+          <div className="accout-icon">
+            <img
+              src={sheltersAccountImg}
+              alt="shelters account illustration"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <h4>Кабінет притулку</h4>
+          <p>Простий та зручний</p>
+          <div className="free-button">
+            <span className="button-dot" />
+            Free
+          </div>
+        </div>
       </div>
     </section>
   );
