@@ -59,7 +59,6 @@
   justify-content: center;
   border-radius: 16px;
   padding: 24px 40px;
-  width: 217px;
   height: 76px;
   backdrop-filter: blur(6px);
   box-shadow: 2px 4px 4px 0 rgba(9, 26, 73, 0.12);
@@ -129,7 +128,6 @@
     max-width: 100%;
     margin-top: 48px;
     position: relative;
-    max-height: 498px;
     padding-bottom: 20px;
     box-sizing: border-box;
     overflow: visible;
@@ -162,7 +160,7 @@
     max-width: 315px;
     height: auto;
     position: absolute;
-    top: 61%;
+    top: 68%;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
@@ -185,5 +183,9 @@
     height: auto;
     top: 58%;
     right: 5%;
+  }
+  .support-buttons {
+    flex-direction: column;
+    gap: 12px;
   }
 }

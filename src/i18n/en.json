@@ -49,5 +49,40 @@
     "title": "Ready to support our project?",
     "description": "We are open to partnerships with shelters, media, and experts. Let’s do good together!",
     "email": "Write us"
+  },
+  "OurWay": {
+    "title": "Our Way",
+    "subtitle": "Project development stages",
+    "badge": {
+      "active": "Currently"
+    },
+    "milestones": {
+      "start": {
+        "cardImgAlt": "start",
+        "date": "July 2025",
+        "title": "Initiative Launch",
+        "description": "Building a team via the Team Challenge and defining the project mission."
+      },
+      "development": {
+        "cardImgAlt": "development",
+        "date": "Active phase",
+        "title": "MVP Development",
+        "description": "Architecture, design, coding, and functionality testing."
+      },
+      "release": {
+        "cardImgAlt": "release",
+        "date": "Spring 2026",
+        "title": "Platform Release",
+        "description": "Launching the first version of the website for initial partner shelters."
+      }
+    }
+  },
+  "forShelters": {
+    "badge": "For Shelters",
+    "title": "Take part in shaping the platform",
+    "description": "If you want to contribute to the platform’s development and get a convenient tool, join our testing. Your feedback helps shape the product.",
+    "question1": "How much time do you spend creating a listing?",
+    "question2": "Would you be willing to collaborate with us?",
+    "button": "Take the survey (3 min)"
   }
 }

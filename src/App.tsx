@@ -6,6 +6,7 @@ import WhoCreatesAdoptly from './components/WhoCreatesAdoptly/WhoCreatesAdoptly'
 import OurWaySection from './components/OurWaySection/OurWaySection';
 import ForShelters from './components/ForShelters/ForShelters';
 import SupportUs from './components/SupportUS/SupportUs';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <ForShelters />
         <SupportUs />
       </main>
+      <Footer />
     </>
   );
 }

@@ -16,8 +16,10 @@ const WhoCreatesAdoptly = () => {
         loading="lazy"
         decoding="async"
       />
-      <h2>{t('WhoCreatesAdoptly.title')}</h2>
-      <p className="description">{t('WhoCreatesAdoptly.description')}</p>
+      <div className="title-and-description">
+        <h2>{t('WhoCreatesAdoptly.title')}</h2>
+        <p className="description">{t('WhoCreatesAdoptly.description')}</p>
+      </div>
       <Roles />
       <Button
         variant="primary"

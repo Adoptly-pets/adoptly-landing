@@ -71,3 +71,9 @@
 .timeline-info .future-date {
   color: #6466f1;
 }
+
+@media (max-width: 768px) {
+  .timeline-item {
+    border-radius: 20px;
+}
+
