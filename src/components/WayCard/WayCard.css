@@ -67,3 +67,9 @@
   text-transform: uppercase;
   box-shadow: 0px 4px 8px 0px #ff8c0052;
 }
+
+@media (max-width: 768px) {
+  .timeline-item {
+    border-radius: 20px;
+  }
+}

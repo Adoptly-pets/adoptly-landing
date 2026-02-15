@@ -40,3 +40,20 @@
   font-weight: 500;
   color: #091a4999;
 }
+
+@media (max-width: 768px) {
+  .roles {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 24px 0;
+  }
+
+  .roles .role-card:last-child {
+    grid-column: auto;
+  }
+
+  .role-card {
+    padding: 12px;
+    border-radius: 16px;
+  }
+}

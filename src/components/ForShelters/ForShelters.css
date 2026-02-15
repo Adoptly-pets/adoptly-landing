@@ -31,6 +31,7 @@
 .for-shelters .question {
   display: flex;
   gap: 12px;
+  align-items: center;
 }
 
 .for-shelters .description {
@@ -58,10 +59,38 @@
   font-size: 20px;
   line-height: 1.5;
   font-weight: 700;
-
   color: #091a49;
+}
+.for-shelters .questions-list img {
+  width: 32px;
+  height: 32px;
 }
 
 .for-shelters .right {
   max-width: 460px;
+}
+
+@media (max-width: 768px) {
+  .for-shelters {
+    flex-direction: column;
+    gap: 72px;
+    padding: 48px 0 24px;
+  }
+  .for-shelters span {
+    background-color: #ffedd5;
+  }
+
+  .for-shelters h2 {
+    font-size: 2rem;
+  }
+  .for-shelters .description {
+    font-size: 16px;
+  }
+
+  .for-shelters .questions-list p {
+    font-size: 14px;
+  }
+  .for-shelters .questions-list li {
+    padding: 11px 12px;
+  }
 }
