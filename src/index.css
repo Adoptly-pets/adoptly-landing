@@ -58,6 +58,7 @@ h2 {
   line-height: 1.1;
   text-align: center;
   color: var(--title-color);
+  font-weight: 800;
 }
 
 h3 {
@@ -82,7 +83,7 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 94px 40px 48px;
   box-sizing: border-box;
 }
 
@@ -90,15 +91,12 @@ img {
   :root {
     --container-padding: 20px;
   }
+  .container {
+    margin: 0 20px;
+    padding: 100px 0 48px;
+  }
 }
 /* --- Reset --- */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 ul,
 ol {
@@ -110,11 +108,6 @@ a {
   color: inherit;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 svg {
   all: unset;
   display: inline-block;

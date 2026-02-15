@@ -29,3 +29,30 @@
   bottom: 8px;
   right: 37px;
 }
+
+@media (max-width: 768px) {
+  .who-creates-adoptly {
+    padding: 48px 8px;
+    margin: 24px 0;
+  }
+  .who-creates-adoptly h2 {
+    font-size: 2rem;
+  }
+  .who-creates-adoptly .description {
+    font-size: 1rem;
+  }
+
+  .who-creates-adoptly .title-and-description {
+    position: relative;
+  }
+  .paws-1 {
+    top: 39px;
+    left: -1px;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .paws-2 {
+    display: none;
+  }
+}
