@@ -74,8 +74,8 @@ const ForShelters = () => {
               decoding="async"
             />
           </div>
-          <h4>Кабінет притулку</h4>
-          <p>Простий та зручний</p>
+          <h4>{t('forShelters.shelter_account')}</h4>
+          <p>{t('forShelters.simple_and_convenient')}</p>
           <div className="free-button">
             <span className="button-dot" />
             Free
