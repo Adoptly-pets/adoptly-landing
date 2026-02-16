@@ -10,7 +10,7 @@ const ForShelters = () => {
   return (
     <section id="shelters" className="for-shelters">
       <div className="left">
-        <span>{t('forShelters.badge')}</span>
+        <span className="badge">{t('forShelters.badge')}</span>
         <h2>{t('forShelters.title')}</h2>
         <p className="description">{t('forShelters.description')}</p>
         <ul className="questions-list">
