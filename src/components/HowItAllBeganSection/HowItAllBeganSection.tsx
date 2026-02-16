@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const HowItAllBeganSection = () => {
   const { t } = useTranslation();
   return (
-    <section className="how-it-all-began-section container">
+    <section className="how-it-all-began-section container" id="ourStory">
       <div className="first-block">
         <h3>{t('HowItAllBegan.title')}</h3>
         <p>{t('HowItAllBegan.paragraphs.1')}</p>

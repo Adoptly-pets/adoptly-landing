@@ -14,7 +14,7 @@ const StatisticCardsSection: React.FC<StatisticCardsSectionProps> = ({
   const { t } = useTranslation();
 
   return (
-    <section className="statistic-section-cards">
+    <section className="statistic-section-cards" id="aboutus">
       {cards.map(card => (
         <NumberCard
           key={card.id}
