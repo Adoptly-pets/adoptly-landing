@@ -27,6 +27,7 @@ const WhoCreatesAdoptly = () => {
         height={64}
         as="a"
         href="https://docs.google.com/forms/d/e/1FAIpQLSdEJJ_VNeSAjJaVgfOhC4w7OhRxaRx-X6U_SHbBKedNDzdlGQ/viewform"
+        target="_blank"
         rel="noopener noreferrer"
         style={{ margin: '0 auto' }}
       >
