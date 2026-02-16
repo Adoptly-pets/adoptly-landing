@@ -10,6 +10,7 @@ export interface MilestonesData {
   cardTitle: string;
   cardDescription: string;
   isActive: boolean;
+  isFuture?: boolean;
 }
 
 export const MILESTONES_DATA: MilestonesData[] = [
@@ -39,5 +40,6 @@ export const MILESTONES_DATA: MilestonesData[] = [
     cardTitle: 'OurWay.milestones.release.title',
     cardDescription: 'OurWay.milestones.release.description',
     isActive: false,
+    isFuture: true,
   },
 ];

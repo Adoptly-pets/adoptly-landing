@@ -22,6 +22,7 @@ const OurWaySection = () => {
             cardTitle={t(milestone.cardTitle)}
             cardDescription={t(milestone.cardDescription)}
             isActive={milestone.isActive}
+            isFuture={milestone.isFuture}
           />
         ))}
       </div>
