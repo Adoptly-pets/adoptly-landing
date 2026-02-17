@@ -6,7 +6,7 @@ import './OurWaySection.css';
 const OurWaySection = () => {
   const { t } = useTranslation();
   return (
-    <section className="our-way-section">
+    <section className="our-way-section" id="roadmap">
       <div>
         <h3>{t('OurWay.title')}</h3>
         <h4 className="section-subtitle">{t('OurWay.subtitle')}</h4>

@@ -43,7 +43,7 @@ const HeroSection = () => {
             maxWidthMobile={220}
             height={64}
             as="a"
-            href="https://www.google.com/url?q=https://forms.gle/GDBdqDkLJA7cg2DUA&sa=D&source=docs&ust=1766317304984797&usg=AOvVaw27tjQDxSQN90QP2ynPhL_8"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdEJJ_VNeSAjJaVgfOhC4w7OhRxaRx-X6U_SHbBKedNDzdlGQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
           >
