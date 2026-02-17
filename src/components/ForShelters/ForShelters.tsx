@@ -10,7 +10,7 @@ const ForShelters = () => {
   return (
     <section id="shelters" className="for-shelters">
       <div className="left">
-        <span>{t('forShelters.badge')}</span>
+        <span className="badge">{t('forShelters.badge')}</span>
         <h2>{t('forShelters.title')}</h2>
         <p className="description">{t('forShelters.description')}</p>
         <ul className="questions-list">
@@ -74,8 +74,8 @@ const ForShelters = () => {
               decoding="async"
             />
           </div>
-          <h4>Кабінет притулку</h4>
-          <p>Простий та зручний</p>
+          <h4>{t('forShelters.shelter_account')}</h4>
+          <p>{t('forShelters.simple_and_convenient')}</p>
           <div className="free-button">
             <span className="button-dot" />
             Free
