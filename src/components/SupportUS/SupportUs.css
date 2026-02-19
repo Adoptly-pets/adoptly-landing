@@ -32,7 +32,6 @@
 }
 .support-buttons {
   display: flex;
-
   gap: 18px;
 }
 .email-btn {
@@ -78,10 +77,12 @@
   transform: translateY(0);
 }
 .icon-email {
+  fill: #fff;
   width: 28px;
   height: 28px;
 }
 .icon-linkedin {
+  fill: #fff;
   width: 28px;
   height: 29px;
 }
@@ -154,7 +155,7 @@
   }
   .description {
     font-size: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .search-btn {
     font-size: 16px;

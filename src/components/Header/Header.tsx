@@ -5,6 +5,7 @@ import Navigation from '../Navigation/Navigation';
 import './Header.css';
 import Modal from '../Modal/Modal';
 import ModalNavigation from '../ModalNavigation/ModalNavigation';
+import SocialLinks from '../SocialLinks/SocialLinks';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -72,6 +73,7 @@ const Header = () => {
               </button>
             </div>
           </div>
+          <SocialLinks isMobileMenu={true} />
         </Modal>
         <div className="actions actions-modal">
           <button
