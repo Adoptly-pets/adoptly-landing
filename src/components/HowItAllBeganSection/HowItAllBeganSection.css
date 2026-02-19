@@ -37,7 +37,7 @@
   padding-top: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .how-it-all-began-section {
     padding: 48px 20px 32px;
     margin: 0;

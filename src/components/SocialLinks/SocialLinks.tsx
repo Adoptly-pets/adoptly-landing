@@ -16,12 +16,7 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ isMobileMenu = false }) => {
         href="https://www.instagram.com"
         aria-label="Instagram"
       >
-        <Icon
-          id="icon-instagram"
-          className="social-icon"
-          size={25}
-          height={22}
-        />
+        <Icon id="icon-email" className="social-icon" size={25} height={22} />
       </a>
       <a
         className="social-link"
@@ -32,21 +27,11 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ isMobileMenu = false }) => {
         aria-label="Facebook"
       >
         <Icon
-          id="icon-facebook"
+          id="icon-linkedin"
           className="social-icon"
           size={25}
           height={22}
         />
-      </a>
-      <a
-        className="social-link"
-        title="TikTok"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.tiktok.com"
-        aria-label="TikTok"
-      >
-        <Icon id="icon-tiktok" className="social-icon" size={25} height={22} />
       </a>
     </div>
   );
