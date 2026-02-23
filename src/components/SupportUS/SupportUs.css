@@ -132,6 +132,7 @@
     box-sizing: border-box;
     overflow: visible;
     margin-bottom: 58px;
+    border-radius: 20px;
   }
   .text-box {
     padding: 31px 22px 0 23px;

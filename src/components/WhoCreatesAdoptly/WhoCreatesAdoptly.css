@@ -34,6 +34,7 @@
   .who-creates-adoptly {
     padding: 48px 8px;
     margin: 24px 0;
+    border-radius: 20px;
   }
   .who-creates-adoptly h2 {
     font-size: 2rem;

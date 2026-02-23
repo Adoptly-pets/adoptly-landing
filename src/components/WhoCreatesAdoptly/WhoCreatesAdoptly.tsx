@@ -24,6 +24,7 @@ const WhoCreatesAdoptly = () => {
       <Button
         variant="primary"
         maxWidth={363}
+        maxWidthMobile={319}
         height={64}
         as="a"
         href="https://docs.google.com/forms/d/e/1FAIpQLSdEJJ_VNeSAjJaVgfOhC4w7OhRxaRx-X6U_SHbBKedNDzdlGQ/viewform"
