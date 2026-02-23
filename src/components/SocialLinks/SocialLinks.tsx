@@ -10,21 +10,20 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ isMobileMenu = false }) => {
     <div className={`social-nav ${isMobileMenu ? 'menu' : ''}`}>
       <a
         className="social-link"
-        title="Instagram"
+        title="email"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.instagram.com"
-        aria-label="Instagram"
+        href="mailto:info@adoptly.app"
+        aria-label="email"
       >
         <Icon id="icon-email" className="social-icon" size={25} height={22} />
       </a>
       <a
         className="social-link"
-        title="Facebook"
+        title="linkedin"
+        href="https://www.linkedin.com/company/adoptly-app/posts/?feedView=all"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.facebook.com"
-        aria-label="Facebook"
       >
         <Icon
           id="icon-linkedin"

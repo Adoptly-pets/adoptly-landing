@@ -16,7 +16,7 @@ const SupportUs = () => {
         <h3 className="title">{t('supportUs.title')}</h3>
         <p className="description">{t('supportUs.description')}</p>
         <div className="support-buttons">
-          <a href="mailto:info@adoptly.app " className="email-btn">
+          <a href="mailto:info@adoptly.app" className="email-btn">
             <Icon
               id="icon-email"
               size={28}
