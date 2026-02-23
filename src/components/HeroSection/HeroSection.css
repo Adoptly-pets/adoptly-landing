@@ -124,7 +124,8 @@
   }
 
   .hero .buttons {
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .hero h1 {
@@ -135,10 +136,6 @@
 
   .hero p {
     font-size: 16px;
-  }
-
-  .hero .button--secondary {
-    display: none;
   }
 
   .paw-1 {
