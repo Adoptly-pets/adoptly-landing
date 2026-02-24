@@ -33,12 +33,13 @@
   }
 
   .social-link {
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
   }
 
   .social-icon {
-    width: 17px;
-    height: 17px;
+    fill: #091a49;
+    width: 24px;
+    height: 24px;
   }
 }

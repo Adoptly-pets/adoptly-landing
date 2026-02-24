@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo">
           <Icon id="icon-footprint" size={24} height={24} />

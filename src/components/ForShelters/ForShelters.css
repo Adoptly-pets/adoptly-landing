@@ -135,7 +135,7 @@
   border-radius: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .for-shelters {
     flex-direction: column;
     gap: 72px;
@@ -153,11 +153,6 @@
     padding: 42px 100px 5px;
   }
 
-  .for-shelters .right img {
-    max-width: 100px;
-    max-height: 100px;
-  }
-
   .for-shelters .right .content .free-button {
     margin: 8px 27px 18px 198px;
     font-size: 14px;
@@ -167,7 +162,7 @@
     font-size: 2rem;
   }
   .for-shelters .description {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .for-shelters .questions-list p {
@@ -175,5 +170,14 @@
   }
   .for-shelters .questions-list li {
     padding: 11px 12px;
+  }
+}
+@media (max-width: 768px) {
+  .for-shelters .description {
+    font-size: 16px;
+  }
+  .for-shelters .right img {
+    max-width: 100px;
+    max-height: 100px;
   }
 }
