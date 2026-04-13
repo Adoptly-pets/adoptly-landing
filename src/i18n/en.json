@@ -86,5 +86,8 @@
     "button": "Take the survey (3 min)",
     "shelter_account": "Shelter Account",
     "simple_and_convenient": "Simple and convenient"
+  },
+  "footer": {
+    "text": "Made with love for animals"
   }
 }
