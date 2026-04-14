@@ -39,7 +39,7 @@ const SupportUs = () => {
               height={28}
               className="icon-linkedin"
             />
-            <span>Linkedln</span>
+            <span>LinkedIn</span>
           </a>
         </div>
       </div>
